@@ -11,7 +11,7 @@ const projectsData = [
   },
   {
     image: require("../../assets/MyChat.png"),
-    title: "MyChat Mobile App",
+    title: "ChitChat Mobile App",
     description: "A full-stack mobile chat app with user authentication, profile photo upload, real-time messaging, and push notifications.",
     tags: ["Flutter", "Dart", "Firebase", "Firestore database"],
     github: "https://github.com/ausafshah18/Chatting-Flutter-App"

@@ -65,6 +65,7 @@ const About = () => {
               <li>NumPy</li>
               <li>Pandas</li>
               <li>OpenCV</li>
+              <li>Matplotlib</li>
             </ul>
           </article>
         </div>
