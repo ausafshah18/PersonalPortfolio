@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import ResumePdf from "../../assets/MS_Resume_Ausaf.pdf";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
             <Link to="contact" smooth={true} duration={500} className="btn btn-primary">
               Get in Touch
             </Link>
-            <a href="/resume.pdf" download className="btn">
+            <a href={ResumePdf} download="MS_Resume_Ausaf.pdf" className="btn">
               Download Resume
             </a>
           </div>
