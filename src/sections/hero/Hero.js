@@ -13,7 +13,7 @@ const Hero = () => {
             Hi, I'm <span>Mohammad Ausaf Shah</span>
           </h1>
           <h2>Full Stack Developer & Software Engineer</h2>
-          <p>A 2024 batch B.Tech CSE graduate from the SRM Institute of Science And Technology, Kattankulathur, Tamil nadu, India. I am currently working as an Engineer I Software Development at Verizon.</p>
+          <p>I am a Software Development Engineer at Verizon. A 2024 batch B.Tech CSE graduate from the SRM Institute of Science And Technology, Kattankulathur, Tamil Nadu, India</p>
           <div className="hero__cta">
             <Link to="contact" smooth={true} duration={500} className="btn btn-primary">
               Get in Touch
