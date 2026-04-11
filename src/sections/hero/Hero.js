@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import ResumePdf from "../../assets/MS_Resume_Ausaf.pdf";
 
 const Hero = () => {

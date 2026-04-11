@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail, MdLocationOn } from "react-icons/md";
-import { BsTelephone, BsWhatsapp } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +18,7 @@ const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const { name, email, subject, message } = formData;
+    const { name, subject, message } = formData;
     const recipient = "ausafshah18@gmail.com";
     const body = `Name: ${name}\n${message}`;
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
