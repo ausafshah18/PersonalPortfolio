@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import VerizonLogo from "../../assets/Verizon-Logo.jpg";
-import BooksAppLogo from "../../assets/BooksApp_Logo.png";
 
 const experiences = [
   {
@@ -20,14 +19,6 @@ const experiences = [
     duration: "February 2024 - July 2024",
     location: "Chennai, India",
     details: ["Contributed to the development of a new web application feature using Node.js.", "Built dynamic UI tabs in React.js to display merge request data in the MERN-based tool, Platform Edge."]
-  },
-  {
-    title: "Web Development Internship",
-    company: "BooksApp",
-    logo: BooksAppLogo,
-    duration: "February 2022 - March 2022",
-    location: "Remote",
-    details: ["Developed a landing page for a Dubai based Cargo company using HTML, CSS, JavaScript and Bootstrap.", "Worked on the Navbar and Different Sections of the Website."]
   }
 ];
 

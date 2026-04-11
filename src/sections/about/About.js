@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { FaCode, FaServer, FaLightbulb, FaMobileAlt } from "react-icons/fa";
+import { FaCode, FaServer, FaMobileAlt } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -52,20 +52,6 @@ const About = () => {
               <li>React Native</li>
               <li>Flutter</li>
               <li>Dart</li>
-            </ul>
-          </article>
-
-          <article className="about__card">
-            <FaLightbulb className="about__icon" />
-            <h3>Artificial Intelligence</h3>
-            <small>Harnessing the power of AI to solve problems with intelligent solutions</small>
-            <ul>
-              <li>TensorFlow</li>
-              <li>Scikit-learn</li>
-              <li>NumPy</li>
-              <li>Pandas</li>
-              <li>OpenCV</li>
-              <li>Matplotlib</li>
             </ul>
           </article>
         </div>
